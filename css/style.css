@@ -1,0 +1,116 @@
+.left{
+    color: rgb(241, 148, 148);
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 30px;
+    
+}
+
+.mid{
+    color: bisque;
+    display: block;
+    width: 44% ;
+    margin: auto;
+
+}
+
+.right{
+    color: aquamarine;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 0%;
+}
+
+.navbar li{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 19px;
+  
+}
+.navbar{
+    color: aliceblue;
+}
+.navbar li a{
+    color: #ff6060;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover , .navbar li a.active{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.navbar li a{
+    color: gold;
+}
+
+.left img{
+    width: 133px;
+    padding-bottom: 0px;
+    background-color: rgb(104, 222, 224);
+}
+
+#lg {
+    color: aliceblue;
+    size: 20;
+    padding-top: 0px;
+    text-align: center;
+}
+ 
+.btn{
+    font-family: 'Bona Nova', serif;
+    margin-top: 18px;
+    color:gold;
+    background-color: black;
+    margin-inline-end: 18px;
+     padding: 6px 10px;
+     border: 3px solid gold;
+     border-radius: 10px;
+     font-size: 15px;
+     cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(170, 170, 170);
+}
+
+.containor{
+    border-radius: 21px;
+    margin: auto;
+    border: 2px solid white;
+    margin-top: 150px;
+    width: 234px;
+    padding: 57px 80px;
+}
+.containor form input{
+    font-family: 'Bona Nova', serif;
+    width: 218px;
+    border-radius: 10px;
+    padding: 5px 31px;
+    margin: 9px;
+    font-size: 15px;
+    text-align: justify;
+    border: 3px solid gold;
+}
+.containor form{
+    margin: -33px;
+}
+.bt{
+    font-family: 'Bona Nova', serif;
+
+    border-radius: 13px;
+    border: 7px solid whitesmoke;
+    background: rgb(251, 255, 11);
+    margin: 8px;
+    width: 285px;
+    padding: 6px 0px 6px 0px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+.bt:hover{
+    background-color:gold;
+}
